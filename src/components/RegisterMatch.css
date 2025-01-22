@@ -1,0 +1,64 @@
+.register-match {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+.match-teams {
+    display: flex;
+}
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.player-button {
+  width: 200px;
+  padding: 10px 15px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.player-button:hover {
+  background: #ddd;
+}
+
+.player-button.selected {
+  background: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: green;
+}

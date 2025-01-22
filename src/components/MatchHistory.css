@@ -1,0 +1,68 @@
+.match-history {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.match-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.match-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.team {
+  width: 40%;
+}
+
+.team h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team ul li {
+  font-size: 14px;
+  color: #555;
+}
+
+.winner,
+.mvp {
+  font-size: 16px;
+  color: #333;
+}
+
+.loading {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.no-matches {
+  font-size: 16px;
+  color: #999;
+}
