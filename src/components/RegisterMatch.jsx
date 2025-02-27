@@ -22,8 +22,8 @@ const RegisterMatch = () => {
 
   // Validación del formulario
   const isFormValid =
-    team1.length === 5 &&
-    team2.length === 5 &&
+    team1.length == 6 &&
+    team2.length == 6 &&
     winner &&
     mvp;
 
