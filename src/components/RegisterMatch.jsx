@@ -22,8 +22,8 @@ const RegisterMatch = () => {
 
   // Validación del formulario
   const isFormValid =
-    team1.length == 6 &&
-    team2.length == 6 &&
+    team1.length === 6 &&
+    team2.length === 6 &&
     winner &&
     mvp;
 
@@ -73,7 +73,7 @@ const RegisterMatch = () => {
   const togglePlayer = (team, setTeam, playerId) => {
     if (team.includes(playerId)) {
       setTeam(team.filter((id) => id !== playerId));
-    } else if (team.length < 5) {
+    } else if (team.length < 6) {
       setTeam([...team, playerId]);
     }
   };
