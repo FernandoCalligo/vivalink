@@ -33,7 +33,7 @@ const Ranking = () => {
 
   return (
     <div className="ranking-container">
-    <h1>Viva Links</h1>
+    <h1>Fulbito Ranking</h1>
       <h2>Ranking de Jugadores</h2>
       <table className="ranking-table">
       <thead>
